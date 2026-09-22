@@ -1,21 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #1a1a1a;
     margin: 0;
     padding: 40px;
 }
 
-.cont1 {
+.contenedor-principal {
     background-color: #ffffff;
     max-width: 480px;
     margin: 0 auto;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    border: 3px solid #f5c400;
 }
 
 h1 {
-    color: #a3161a;
+    color: #1a1a1a;
     font-size: 24px;
     margin-top: 0;
 }
@@ -39,26 +40,27 @@ input {
 button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #a3161a;
-    color: #ffffff;
+    background-color: #f5c400;
+    color: #1a1a1a;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 15px;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #8c1216;
+    background-color: #d9ac00;
 }
 
-#r {
+#resultadoPromedio {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-    color: #333333;
+    color: #1a1a1a;
 }
 
-#r2 {
+#resultadoEstado {
     font-size: 15px;
-    color: #666666;
+    color: #555555;
 }
